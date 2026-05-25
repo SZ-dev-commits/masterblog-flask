@@ -1,0 +1,27 @@
+!DOCTYPE html>
+<html>
+<head>
+    <title>Add New Post</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Add a New Blog Post</h1>
+
+    <div class="post">
+        <form method="POST">
+            <p>Author:<br>
+            <input type="text" name="author" required></p>
+
+            <p>Title:<br>
+            <input type="text" name="title" required></p>
+
+            <p>Content:<br>
+            <textarea name="content" rows="5" required></textarea></p>
+
+            <button type="submit">Submit Post</button>
+        </form>
+    </div>
+
+    <p><a href="/">Back to Home</a></p>
+</body>
+</html>

@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "author": "S.Zhang",
+        "title": "First Post",
+        "content": "This is my first post.",
+        "likes": 1
+    },
+    {
+        "id": 2,
+        "author": "S.Zhang",
+        "title": "Second Post",
+        "content": "This is my second post.",
+        "likes": 2
+    }
+]
